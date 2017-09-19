@@ -34,17 +34,18 @@
             // 
             // lblHelloWorld
             // 
-            this.lblHelloWorld.AutoSize = true;
-            this.lblHelloWorld.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHelloWorld.Location = new System.Drawing.Point(219, 76);
+            this.lblHelloWorld.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblHelloWorld.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHelloWorld.Location = new System.Drawing.Point(12, 40);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(0, 39);
+            this.lblHelloWorld.Size = new System.Drawing.Size(560, 111);
             this.lblHelloWorld.TabIndex = 0;
             this.lblHelloWorld.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(261, 247);
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnShow.Location = new System.Drawing.Point(235, 226);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(126, 23);
             this.btnShow.TabIndex = 1;
@@ -56,14 +57,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(573, 282);
+            this.ClientSize = new System.Drawing.Size(584, 261);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.lblHelloWorld);
+            this.MinimumSize = new System.Drawing.Size(600, 300);
             this.Name = "frmHelloWorld";
             this.Text = "Hello World";
             this.Load += new System.EventHandler(this.frmHelloWorld_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

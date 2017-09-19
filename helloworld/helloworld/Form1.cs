@@ -18,12 +18,13 @@ namespace helloworld
 
         private void btnShow_Click(object sender, EventArgs e)
         {
-
+            lblHelloWorld.Text = "Hello World";
+          
         }
 
         private void frmHelloWorld_Load(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "Hello World";
+           
         }
     }
 }
